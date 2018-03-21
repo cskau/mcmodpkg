@@ -6,6 +6,8 @@ from __future__ import print_function
 import hashlib
 import os
 import zipfile
+import json
+import re
 
 # http://python-future.org/compatible_idioms.html#urllib-module
 try:
@@ -31,8 +33,9 @@ def read_mcmod_info(mod_file, mcmod_info_file='mcmod.info'):
 
   if mcmod_info_file in archive.namelist():
     try:
-      mcmod_info = archive.read(mcmod_info_file)
+      mcmod_info = archive.read(mcmod_info_file).decode('utf-8')
       # stupid hack for NEI
+      # All newlines in strings should be escaped; elsewhere they're meaningless.
       mcmod_info = mcmod_info.replace('\n', '')
       # stupid hack for some compact-solars
       mcmod_info = mcmod_info.replace('"mcversion": 1.7.10"', '"mcversion": "1.7.10"')
@@ -42,6 +45,13 @@ def read_mcmod_info(mod_file, mcmod_info_file='mcmod.info'):
       mcmod_info = mcmod_info.replace('"modList":', '"modlist":')
       # stupid hack for Forestry
       mcmod_info = mcmod_info.replace('mod_MinecraftForge', 'forge')
+      # stupid hack for Engineer's Workshop
+      mcmod_info = re.sub(r',\s]\s}', ']}', mcmod_info)
+      # stupid hack for simple-harvest, dense-ores
+      mcmod_info = mcmod_info.replace('Example Mod', '')
+      mcmod_info = mcmod_info.replace('Example placeholder mod.', '')
+      mcmod_info = mcmod_info.replace('examplemod', '')
+      # Finally, we hopefully have some readable JSON
       mcmod_info_json = json.loads(mcmod_info)
       # stupid hack for journeymap
       if type(mcmod_info_json) == dict:

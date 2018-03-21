@@ -73,12 +73,33 @@ def resolve_graph(
       modid_queue += top_match['dependencies']
 
 
-def list_mods(mod_infos):
+def list_mods(mod_infos, mcversion=None):
   for mod in mod_infos:
     if 'modid' in mod:
+      # Check it's available for the give MC version
+      if mcversion:
+        if not 'downloads' in mod:
+          continue
+        version_found = False
+        for d in mod['downloads']:
+          if 'mcversions' in d and mcversion in d['mcversions']:
+            version_found = True
+        if not version_found:
+          continue
+      #
       description = mod['description'] if 'description' in mod else ''
       entry = '{} - {}'.format(mod['modid'], description)
       print(entry)
+
+
+def list_mcversions(mod_infos):
+  versions = set()
+  for mod in mod_infos:
+    if 'downloads' in mod:
+      for d in mod['downloads']:
+        if 'mcversions' in d:
+          versions.update(d['mcversions'])
+  print(sorted(versions))
 
 
 #
@@ -110,6 +131,11 @@ if __name__ == '__main__':
       action='store_true',
       )
 
+  parser.add_argument(
+      '--list_mcversions',
+      action='store_true',
+      )
+
   args = parser.parse_args()
 
   modids = args.modids
@@ -117,13 +143,17 @@ if __name__ == '__main__':
   mcversion = args.mcversion
   ignore_dependencies = args.ignore_dependencies
   do_list_mods = args.list
+  do_list_mcversions = args.list_mcversions
 
   ignore_dependencies = ignore_dependencies.split(',')
 
   mod_infos = json.load(open(mcmod_info_json, 'r'))
 
   if do_list_mods:
-    list_mods(mod_infos)
+    list_mods(mod_infos, mcversion)
+    exit()
+  elif do_list_mcversions:
+    list_mcversions(mod_infos)
     exit()
 
   resolve_graph(mod_infos, modids, mcversion, ignore_dependencies)

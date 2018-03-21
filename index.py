@@ -51,7 +51,8 @@ def order_dict(in_dict, order=KEY_ORDER):
 
 
 def clean_up(in_dict):
-  for k in in_dict:
+  keys = set(in_dict.keys())
+  for k in keys:
     if not in_dict[k]:
       # Remove empty fields
       del in_dict[k]
@@ -106,6 +107,16 @@ class Index:
         for mod_info in self.mod_infos
     ]
 
+    # Sanity checks
+    seen_mods = set()
+    for mod_info in self.mod_infos:
+      if not entry_key in mod_info:
+        raise Exception('Missing key in: {}'.format(mod_info))
+      key = mod_info[entry_key]
+      if key in seen_mods:
+        raise Exception('Duplicate mod: {}'.format(mod_info))
+      seen_mods.add(key)
+
     # Sort mod entries according to entry_key
     self.mod_infos = sorted(
         self.mod_infos,
@@ -121,22 +132,24 @@ class Index:
           )
 
 
-def main(mcmod_info_data, mcmod_info_out):
-  index = Index(mcmod_info_data)
-  index.sort_index()
-  index.save_index(mcmod_info_out)
+def main(mcmod_info_in, mcmod_info_out):
+  with Index(mcmod_info_in) as index:
+    index.sort_index()
+    index.save_index(mcmod_info_out)
 
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
 
   parser.add_argument(
+      '-i',
       '--mcmod_info_in',
       default='index.json',
       nargs='?',
       )
 
   parser.add_argument(
+      '-o',
       '--mcmod_info_out',
       nargs='?',
       )
@@ -145,12 +158,11 @@ if __name__ == '__main__':
 
   #
   with open(args.mcmod_info_in, 'r') as mcmod_info_in:
-    mcmod_info_in_data = mcmod_info_in.read()
 
-  mcmod_info_out = (
-      open(args.mcmod_info_out, 'w')
-      if args.mcmod_info_out else
-      sys.stdout
-      )
+    mcmod_info_out = (
+        open(args.mcmod_info_out, 'w')
+        if args.mcmod_info_out else
+        sys.stdout
+        )
 
-  main(mcmod_info_in_data, mcmod_info_out)
+    main(mcmod_info_in, mcmod_info_out)

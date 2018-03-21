@@ -21,7 +21,7 @@ Downloading https://minecraft.curseforge.com/projects/thermal-foundation/files/2
 ```
 
 All the mod jars are now downloaded into `./downloads/1.11.2/` which you
-can move to you Minecraft mod folder.
+can move to your Minecraft mod folder.
 Note that this of course assumes Forge.
 
 
