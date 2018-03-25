@@ -20,7 +20,8 @@ def find_matching_mods(mod_infos, modid, target_version):
 
     for d in mod['downloads']:
       if not 'mcversions' in d:
-        raise Exception('No mcversions found in:\n{}'.format(d))
+        # raise Exception('No mcversions found in:\n{}'.format(d))
+        continue
 
       if d['mcversions']:
         if not (target_version in d['mcversions']):
@@ -154,6 +155,14 @@ if __name__ == '__main__':
     exit()
   elif do_list_mcversions:
     list_mcversions(mod_infos)
+    exit()
+  
+  if not modids:
+    parser.print_help()
+    exit()
+
+  if not mcversion:
+    print('Error: mcversion required!')
     exit()
 
   resolve_graph(mod_infos, modids, mcversion, ignore_dependencies)
