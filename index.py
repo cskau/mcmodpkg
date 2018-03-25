@@ -20,7 +20,7 @@ KEY_ORDER = OrderedDict([
   ('downloads', [OrderedDict([
     ('version', None),
     ('mcversions', None),
-    ('javaversions', None),
+    # ('javaversions', None),
     ('md5', None),
     ('dependencies', None),
     ('mirrors', None),
@@ -53,11 +53,11 @@ def order_dict(in_dict, order=KEY_ORDER):
 def clean_up(in_dict):
   keys = set(in_dict.keys())
   for k in keys:
+    if isinstance(in_dict[k], list) and isinstance(in_dict[k][0], OrderedDict):
+      in_dict[k] = [clean_up(e) for e in in_dict[k]]
     if not in_dict[k]:
       # Remove empty fields
       del in_dict[k]
-    elif type(in_dict[k]) == list and type(in_dict[k][0]) == OrderedDict:
-      in_dict[k] = [clean_up(e) for e in in_dict[k]]
   return in_dict
 
 
@@ -97,6 +97,13 @@ class Index:
 
 
   def sort_index(self, entry_key='modid'):
+    # Sanity
+    for mod_info in self.mod_infos:
+      if not (entry_key in mod_info and mod_info[entry_key]):
+        # raise Exception('Missing key in: {}'.format(mod_info))
+        print('Missing key "{}", setting "{}" from curseforge_id.'.format(entry_key, mod_info['curseforge_id']))
+        mod_info[entry_key] = mod_info['curseforge_id']
+    
     # Clean up and order dict according to the standard ordering
     self.mod_infos = [
         order_dict(
@@ -110,8 +117,6 @@ class Index:
     # Sanity checks
     seen_mods = set()
     for mod_info in self.mod_infos:
-      if not entry_key in mod_info:
-        raise Exception('Missing key in: {}'.format(mod_info))
       key = mod_info[entry_key]
       if key in seen_mods:
         raise Exception('Duplicate mod: {}'.format(mod_info))
@@ -120,7 +125,7 @@ class Index:
     # Sort mod entries according to entry_key
     self.mod_infos = sorted(
         self.mod_infos,
-        key=lambda e:e[entry_key],
+        key=lambda e:e[entry_key].lower(),
         )
 
     # Sort downloads by first mirror url (newest download first)

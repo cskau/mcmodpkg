@@ -51,11 +51,25 @@ def read_mcmod_info(mod_file, mcmod_info_file='mcmod.info'):
       mcmod_info = mcmod_info.replace('Example Mod', '')
       mcmod_info = mcmod_info.replace('Example placeholder mod.', '')
       mcmod_info = mcmod_info.replace('examplemod', '')
+      # stupid hack for tinkers-construct
+      mcmod_info = mcmod_info.replace('"version": "@VERSION@",', '')
+      mcmod_info = mcmod_info.replace('"mcversion": "@MCVERSION@",', '')
+      # stupid hack for extrautils
+      mcmod_info = mcmod_info.replace('"version": "${version}",', '')
+      mcmod_info = mcmod_info.replace('"mcversion": "${mcversion}",', '')
+      # stupid hack for agricraft
+      mcmod_info = mcmod_info.replace('"mcversion": "${mod.mcversion}",', '')
       # Finally, we hopefully have some readable JSON
       mcmod_info_json = json.loads(mcmod_info)
-      # stupid hack for journeymap
-      if type(mcmod_info_json) == dict:
-        if 'modlist' in mcmod_info_json:
+      # stupid hack for alternative mod list format
+      if isinstance(mcmod_info_json, dict):
+        if 'modinfoversion' in mcmod_info_json:
+          mcmod_info_json['modListVersion'] = mcmod_info_json['modinfoversion']
+        if 'modList' in mcmod_info_json:
+          mcmod_info_json['modlist'] = mcmod_info_json['modList']
+        if ('modListVersion' in mcmod_info_json
+            and mcmod_info_json['modListVersion'] in (2, '2')
+            and 'modlist' in mcmod_info_json):
           mcmod_info_json = mcmod_info_json['modlist']
       return mcmod_info_json
     except ValueError as e:
@@ -75,7 +89,7 @@ def download(url, download_path=None):
     # raise Exception(
     #     'Got HTTP code {}'.format(
     #         response.getcode()))
-    print('Coudln\'t download:\n{}'.format(url))
+    print('Couldn\'t download:\n{}'.format(url))
     return None
 
   info = response.info()
