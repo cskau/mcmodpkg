@@ -156,5 +156,13 @@ if __name__ == '__main__':
   elif do_list_mcversions:
     list_mcversions(mod_infos)
     exit()
+  
+  if not modids:
+    parser.print_help()
+    exit()
+
+  if not mcversion:
+    print('Error: mcversion required!')
+    exit()
 
   resolve_graph(mod_infos, modids, mcversion, ignore_dependencies)
