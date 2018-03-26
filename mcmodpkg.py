@@ -20,7 +20,8 @@ def find_matching_mods(mod_infos, modid, target_version):
 
     for d in mod['downloads']:
       if not 'mcversions' in d:
-        raise Exception('No mcversions found in:\n{}'.format(d))
+        # raise Exception('No mcversions found in:\n{}'.format(d))
+        continue
 
       if d['mcversions']:
         if not (target_version in d['mcversions']):
