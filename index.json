@@ -1,11 +1,11 @@
 [
   {
     "name": "Actually Additions",
-    "description": "Do you want Automation? Wireless Transport? Better Machines? A cup o' Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more!",
-    "modid": "actuallyadditions",
+    "description": "Actually Additions is a Mod that offers a bunch of things from Machines for Automation and tons of food to advanced Hopper Mechanisms and Effect Rings!",
+    "modid": "ActuallyAdditions",
     "curseforge_id": "actually-additions",
     "urls": [
-      "http://github.com/Ellpeck/ActuallyAdditions"
+      "https://github.com/Ellpeck/ActuallyAdditions"
     ],
     "downloads": [
       {
@@ -1848,7 +1848,7 @@
   },
   {
     "name": "Another One Bites The Dust",
-    "description": "AOBD dynamically finds all the ores and ingots added by any mod and makes them processable in IC2, EnderIO, RailCraft, Mekanism, Thermal Expansion, Thaumcraft, UltraTech, Factorization, RandomAdditions and Gany's Nether machines!",
+    "description": "AOBD dynamically finds all the ores and ingots added by any mod and makes them processable in IC2, EnderIO, RailCraft, Mekanism, Thermal Expansion, Thaumcraft, UltraTech, Factorization, RandomAdditions, Gany's Nether, Modular Systems, Hydraulicraft, Tinker's Construct, SimpleOreGrinder, RotaryCraft, Electrical Age, Aura Cascade, Flaxbeard's Steampower Mod, Engineer's Toolbox, and Immersive Engineering machines!",
     "modid": "aobd",
     "curseforge_id": "another-one-bites-the-dust",
     "downloads": [
@@ -3730,7 +3730,7 @@
   {
     "name": "Aroma1997Core",
     "description": "This is basically a library used by most my other mods.",
-    "modid": "Aroma1997Core",
+    "modid": "aroma1997core",
     "curseforge_id": "aroma1997core",
     "urls": [
       "http://www.minecraftforum.net/topic/1679684-"
@@ -4481,7 +4481,7 @@
   {
     "name": "Aroma1997's Dimensional World",
     "description": "This mod adds a new Dimension especially for mining. It is pretty much like the overworld, just different. :-)",
-    "modid": "Aroma1997s Dimension",
+    "modid": "aroma1997sdimension",
     "curseforge_id": "aroma1997s-dimensional-world",
     "urls": [
       "http://www.minecraftforum.net/topic/1679684-"
@@ -5195,9 +5195,430 @@
     ]
   },
   {
-    "name": "Backpacks!",
-    "description": "Adds upgradable, customizable backpacks that can be opened with right-click from almost any gui and can be configured to automatically collect specific types of items. Also includes a recipe editor",
-    "modid": "backpacks16840",
+    "name": "Baubles",
+    "description": "Adding a touch of bling to Minecraft",
+    "modid": "Baubles",
+    "curseforge_id": "baubles",
+    "urls": [
+      "http://www.minecraftforum.net/topic/2535073-baubles"
+    ],
+    "downloads": [
+      {
+        "version": "1.12-1.5.2",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "944dec4ef3fbfd4d498d94a7047af201",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2518667/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.13",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "16eace0cf788c69566dfb4df7519509e",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2518666/download"
+        ]
+      },
+      {
+        "version": "1.12-1.5.1",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "a2ca9d9efb67106026c4b0348a353ccf",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2459083/download"
+        ]
+      },
+      {
+        "version": "1.12-1.5.0",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "82851c31a20169d674588a0d165fd9d9",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2458762/download"
+        ]
+      },
+      {
+        "version": "1.11-1.4.6",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "40535c0305e32b1b67a340dec0d11ff2",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2458753/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.11",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "e166f469a2bac734edb8c8de7ff17144",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2424565/download"
+        ]
+      },
+      {
+        "version": "1.11-1.4.5",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "af5c2cf11336b5689bc353f59e048e66",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2424450/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.10",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "964e96e39651be99bdafce046cbb5c79",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2415265/download"
+        ]
+      },
+      {
+        "version": "1.11-1.4.4",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "73583f0bf526b48486b097a19b055206",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2414900/download"
+        ]
+      },
+      {
+        "version": "1.11-1.4.3",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "2f6dac5674b66e4cbdc3414600bc22d2",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2375831/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.9",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "9bb32e509e80d83de02e07cd7f37fed3",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2375820/download"
+        ]
+      },
+      {
+        "version": "1.11-1.4.2",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "6b41b379b036dbf88e39ffd0eb1057fe",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2353527/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.8",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "8df347d4f0fa02462b5e0879c2d438f5",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2353526/download"
+        ]
+      },
+      {
+        "version": "1.11-1.4.1",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "97f42b3f69044b44043d0efeec3139ff",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2353222/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.7",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "c7596aca1b14eca2bf8098ea15ae6e5c",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2353221/download"
+        ]
+      },
+      {
+        "version": "1.11-1.4.0",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "9a745616d86455aecc5d4c73bbf5449c",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2352551/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.6",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "0345bb86fef806ebc7d4f828211c6eb7",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2350499/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.5",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "017b91cd7c919ea89c8513fe3c0da947",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2345299/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.4",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "fe0dd02890925ccc8913a02279e087d9",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2345047/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.3",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "18ed9d8bc1efa3b1c1a2f28917056cd8",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2343318/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.2",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "d0d3da1617624b6e2cde77c2a23bcbec",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2341549/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.1",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "c124d090e4122edaeed80659dc16583c",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2341531/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.0",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "1469c8edf9087e340cfab10ec1238d38",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2339510/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.BETA11",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "fc4c3b2e3b3c3a9e398fb056db8f9e0d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2336792/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.BETA9",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "2947f3180289e5de9e4efd24a87b3a94",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2335832/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.BETA8",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "3132e7220d99cba7b35fa26e9d358142",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2335575/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.BETA7",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "d6b8c064f44efb71f6c82296bb80a0e5",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2334680/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.BETA6",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "f1446d537a5195c782a1f96edb84f977",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2334494/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.BETA5",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "1fa57555aa09a969017b4d6fcc9a949d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2334239/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.BETA4",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "f799e2883660932a7edc50751c000160",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2334067/download"
+        ]
+      },
+      {
+        "version": "1.10.2-1.3.BETA3",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "fab63a9feed235f00ee624247a332654",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2334063/download"
+        ]
+      },
+      {
+        "version": "1.9.4-1.2.1.0",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "47ca37ca2019bb4f143a1e9be06911d3",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2301094/download"
+        ]
+      },
+      {
+        "version": "1.9-1.2.0.2",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "9ca47a1c2b99d83fd5e993c72b50576d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2295239/download"
+        ]
+      },
+      {
+        "version": "1.9-1.2.0.1",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "657c456a942d787106d34ed3e37cba7b",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2293585/download"
+        ]
+      },
+      {
+        "version": "1.9-1.2.0.0",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "f7b51f9a12b9f7bbded4cd38d1d84ffb",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2290649/download"
+        ]
+      },
+      {
+        "version": "1.8.9-1.1.3.0",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "f2ca1bfad58b460c0949bf9bc4b31ddb",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2273274/download"
+        ]
+      },
+      {
+        "version": "1.8.8-1.1.2.0",
+        "mcversions": [
+          "1.8.8"
+        ],
+        "md5": "df679dcc2bf754208aa1aec5923f6e25",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2271046/download"
+        ]
+      },
+      {
+        "version": "1.8-1.1.1.1",
+        "mcversions": [
+          "1.8"
+        ],
+        "md5": "9e2733fc3156538241347abbef47a809",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2268694/download"
+        ]
+      },
+      {
+        "version": "1.8-1.1.1.0",
+        "mcversions": [
+          "1.8"
+        ],
+        "md5": "a4d072890ae44d6cdf62cdc187a15e28",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2229136/download"
+        ]
+      },
+      {
+        "version": "1.8-1.1.1.0",
+        "mcversions": [
+          "1.8"
+        ],
+        "md5": "5c0287e899cd27dbfe5632e74145b1a7",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2229135/download"
+        ]
+      },
+      {
+        "version": "1.7.10-1.0.1.10",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "0e711d6535970f62d4964edaa26f4623",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/baubles/files/2224857/download"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Backpacks! Core Mod",
+    "description": "Patches the vanilla GUI system to allow backpacks to be opened from incompatible GUIs",
+    "modid": "bcmod-guipatch",
     "curseforge_id": "backpacks",
     "urls": [
       "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291844-backpacks-by-brad16840"
@@ -6413,427 +6834,6 @@
     ]
   },
   {
-    "name": "Baubles",
-    "description": "Adding a touch of bling to Minecraft",
-    "modid": "Baubles",
-    "curseforge_id": "baubles",
-    "urls": [
-      "http://www.minecraftforum.net/topic/2535073-baubles"
-    ],
-    "downloads": [
-      {
-        "version": "1.12-1.5.2",
-        "mcversions": [
-          "1.12"
-        ],
-        "md5": "944dec4ef3fbfd4d498d94a7047af201",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2518667/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.13",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "16eace0cf788c69566dfb4df7519509e",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2518666/download"
-        ]
-      },
-      {
-        "version": "1.12-1.5.1",
-        "mcversions": [
-          "1.12"
-        ],
-        "md5": "a2ca9d9efb67106026c4b0348a353ccf",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2459083/download"
-        ]
-      },
-      {
-        "version": "1.12-1.5.0",
-        "mcversions": [
-          "1.12"
-        ],
-        "md5": "82851c31a20169d674588a0d165fd9d9",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2458762/download"
-        ]
-      },
-      {
-        "version": "1.11-1.4.6",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "40535c0305e32b1b67a340dec0d11ff2",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2458753/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.11",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "e166f469a2bac734edb8c8de7ff17144",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2424565/download"
-        ]
-      },
-      {
-        "version": "1.11-1.4.5",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "af5c2cf11336b5689bc353f59e048e66",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2424450/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.10",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "964e96e39651be99bdafce046cbb5c79",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2415265/download"
-        ]
-      },
-      {
-        "version": "1.11-1.4.4",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "73583f0bf526b48486b097a19b055206",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2414900/download"
-        ]
-      },
-      {
-        "version": "1.11-1.4.3",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "2f6dac5674b66e4cbdc3414600bc22d2",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2375831/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.9",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "9bb32e509e80d83de02e07cd7f37fed3",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2375820/download"
-        ]
-      },
-      {
-        "version": "1.11-1.4.2",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "6b41b379b036dbf88e39ffd0eb1057fe",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2353527/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.8",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "8df347d4f0fa02462b5e0879c2d438f5",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2353526/download"
-        ]
-      },
-      {
-        "version": "1.11-1.4.1",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "97f42b3f69044b44043d0efeec3139ff",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2353222/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.7",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "c7596aca1b14eca2bf8098ea15ae6e5c",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2353221/download"
-        ]
-      },
-      {
-        "version": "1.11-1.4.0",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "9a745616d86455aecc5d4c73bbf5449c",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2352551/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.6",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "0345bb86fef806ebc7d4f828211c6eb7",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2350499/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.5",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "017b91cd7c919ea89c8513fe3c0da947",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2345299/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.4",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "fe0dd02890925ccc8913a02279e087d9",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2345047/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.3",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "18ed9d8bc1efa3b1c1a2f28917056cd8",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2343318/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.2",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "d0d3da1617624b6e2cde77c2a23bcbec",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2341549/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.1",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "c124d090e4122edaeed80659dc16583c",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2341531/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.0",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "1469c8edf9087e340cfab10ec1238d38",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2339510/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.BETA11",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "fc4c3b2e3b3c3a9e398fb056db8f9e0d",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2336792/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.BETA9",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "2947f3180289e5de9e4efd24a87b3a94",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2335832/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.BETA8",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "3132e7220d99cba7b35fa26e9d358142",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2335575/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.BETA7",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "d6b8c064f44efb71f6c82296bb80a0e5",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2334680/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.BETA6",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "f1446d537a5195c782a1f96edb84f977",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2334494/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.BETA5",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "1fa57555aa09a969017b4d6fcc9a949d",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2334239/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.BETA4",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "f799e2883660932a7edc50751c000160",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2334067/download"
-        ]
-      },
-      {
-        "version": "1.10.2-1.3.BETA3",
-        "mcversions": [
-          "1.10.2"
-        ],
-        "md5": "fab63a9feed235f00ee624247a332654",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2334063/download"
-        ]
-      },
-      {
-        "version": "1.9.4-1.2.1.0",
-        "mcversions": [
-          "1.9.4"
-        ],
-        "md5": "47ca37ca2019bb4f143a1e9be06911d3",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2301094/download"
-        ]
-      },
-      {
-        "version": "1.9-1.2.0.2",
-        "mcversions": [
-          "1.9"
-        ],
-        "md5": "9ca47a1c2b99d83fd5e993c72b50576d",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2295239/download"
-        ]
-      },
-      {
-        "version": "1.9-1.2.0.1",
-        "mcversions": [
-          "1.9"
-        ],
-        "md5": "657c456a942d787106d34ed3e37cba7b",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2293585/download"
-        ]
-      },
-      {
-        "version": "1.9-1.2.0.0",
-        "mcversions": [
-          "1.9"
-        ],
-        "md5": "f7b51f9a12b9f7bbded4cd38d1d84ffb",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2290649/download"
-        ]
-      },
-      {
-        "version": "1.8.9-1.1.3.0",
-        "mcversions": [
-          "1.8.9"
-        ],
-        "md5": "f2ca1bfad58b460c0949bf9bc4b31ddb",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2273274/download"
-        ]
-      },
-      {
-        "version": "1.8.8-1.1.2.0",
-        "mcversions": [
-          "1.8.8"
-        ],
-        "md5": "df679dcc2bf754208aa1aec5923f6e25",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2271046/download"
-        ]
-      },
-      {
-        "version": "1.8-1.1.1.1",
-        "mcversions": [
-          "1.8"
-        ],
-        "md5": "9e2733fc3156538241347abbef47a809",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2268694/download"
-        ]
-      },
-      {
-        "version": "1.8-1.1.1.0",
-        "mcversions": [
-          "1.8"
-        ],
-        "md5": "a4d072890ae44d6cdf62cdc187a15e28",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2229136/download"
-        ]
-      },
-      {
-        "version": "1.8-1.1.1.0",
-        "mcversions": [
-          "1.8"
-        ],
-        "md5": "5c0287e899cd27dbfe5632e74145b1a7",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2229135/download"
-        ]
-      },
-      {
-        "version": "1.7.10-1.0.1.10",
-        "mcversions": [
-          "1.7.10"
-        ],
-        "md5": "0e711d6535970f62d4964edaa26f4623",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/baubles/files/2224857/download"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Binnie Core",
     "description": "Base mod for Binnie's Mods, with lots of common code.",
     "modid": "binniecore",
@@ -6842,6 +6842,32 @@
       "https://minecraft.curseforge.com/projects/binnies-mods"
     ],
     "downloads": [
+      {
+        "version": "2.5.0.146",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "27c02c6584f6174fb055e0cf696fbc1a",
+        "dependencies": [
+          "forestry"
+        ],
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/binnies-mods/files/2545004/download"
+        ]
+      },
+      {
+        "version": "2.5.0.145",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "807a03ee2479c4808245cd64f369fe54",
+        "dependencies": [
+          "forestry"
+        ],
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/binnies-mods/files/2545003/download"
+        ]
+      },
       {
         "version": "2.5.0.144",
         "mcversions": [
@@ -8792,7 +8818,7 @@
   {
     "name": "Biomes O' Plenty",
     "description": "Adds over 50 new biomes, blocks, and more!",
-    "modid": "biomesoplenty",
+    "modid": "BiomesOPlenty",
     "curseforge_id": "biomes-o-plenty",
     "urls": [
       "http://mods.curse.com/mc-mods/minecraft/220318-biomes-o-plenty"
@@ -18344,6 +18370,575 @@
     ]
   },
   {
+    "name": "Simple Grinder",
+    "description": "If you do not want install very bigger mod for grinder, my mod for you.",
+    "modid": "cg",
+    "curseforge_id": "simple-grinder",
+    "urls": [
+      "http://minecraft.curseforge.com/projects/simple-grinder"
+    ],
+    "downloads": [
+      {
+        "version": "1.144.R1122fix",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "cd0353d1bf46dcb6e4a106125cdc3eb3",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2541999/download"
+        ]
+      },
+      {
+        "version": "4.114.R1122",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "8c9a7b67d418d05b98e3d04bab6c0ac1",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2537447/download"
+        ]
+      },
+      {
+        "version": "4.112.R1122",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "7c7e54e6c25153f4e8fbf19b12ed602f",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2537016/download"
+        ]
+      },
+      {
+        "version": "4.100.R1122",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "e52ca461484ce053b873cce1b38b1483",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2519130/download"
+        ]
+      },
+      {
+        "md5": "64b112ba12715b368525bb3bd0154334",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2482427/download"
+        ]
+      },
+      {
+        "version": "4.085.R1121",
+        "mcversions": [
+          "1.12.1"
+        ],
+        "md5": "2af091273a61b9d925ca23500f287240",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2482394/download"
+        ]
+      },
+      {
+        "version": "4.085.R1121",
+        "mcversions": [
+          "1.12.1"
+        ],
+        "md5": "2e32da6f312c2d5f73fe5ac28174c5e4",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2469612/download"
+        ]
+      },
+      {
+        "version": "4.055.R1112",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "4194b786185c3165b38eb4e222766628",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2464499/download"
+        ]
+      },
+      {
+        "version": "4.055.R1112",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "53c5cf0dcc33f5b27e87a78aa6ae8299",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2462631/download"
+        ]
+      },
+      {
+        "version": "4.055.R1112",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "64b898a2139fb9f4fde74833f1e5163b",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2462409/download"
+        ]
+      },
+      {
+        "version": "4.055.R1112",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "d163e573c018905f43b1c95624bbae1c",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2459986/download"
+        ]
+      },
+      {
+        "version": "4.055.R1112",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "02afcae52a7616e382f446a4785e3444",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2458764/download"
+        ]
+      },
+      {
+        "version": "4.012.R1112",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "f3479d2aa96fa96aff38aa096dfce0d8",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2443368/download"
+        ]
+      },
+      {
+        "version": "4.012.R1112",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "5bccf39a0c8218d63d250e6c346b0200",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2442838/download"
+        ]
+      },
+      {
+        "version": "4.012.R1112",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "4e5d8546114ea8d508d8de15fc1b2cc0",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2437536/download"
+        ]
+      },
+      {
+        "version": "4.012.R1112",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "f2925908da5694cdf7fe28b5e0e5e53c",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2435188/download"
+        ]
+      },
+      {
+        "version": "3.121.R1112",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "6d9a1c24b10f3da9b85e86e1a0c5e3c7",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2432211/download"
+        ]
+      },
+      {
+        "version": "3.121.R1112",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "9a27d98fa605cd1b618d0653c6e80773",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2431780/download"
+        ]
+      },
+      {
+        "version": "3.121.R1112",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "9ba79dfa941ee7ad1d4851b36b24714d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2423144/download"
+        ]
+      },
+      {
+        "version": "3.121.R1112",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "e3210379732818476086c117c9beb208",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2413384/download"
+        ]
+      },
+      {
+        "version": "3.121.R1112",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "8dc87f8c51e627728ec08a3f1de77b6c",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2402455/download"
+        ]
+      },
+      {
+        "version": "3.101.R1112",
+        "mcversions": [
+          "1.11.2"
+        ],
+        "md5": "d647ddcd51029fb5bac056921c05edcc",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2393027/download"
+        ]
+      },
+      {
+        "version": "3.095.R1112",
+        "mcversions": [
+          "1.11.2"
+        ],
+        "md5": "c96286e92b66aa3d55fc3b228d8c2a43",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2381357/download"
+        ]
+      },
+      {
+        "version": "3.038.R111",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "d3b2cc9b5805455ae0b5dbfba5775dd6",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2363196/download"
+        ]
+      },
+      {
+        "version": "3.025.R111",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "9a8dd2646fd070c1cb39ec8fcfae6fab",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2353980/download"
+        ]
+      },
+      {
+        "version": "3.025.R111",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "d1b57afccee410843cacf3a094a74a27",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2351490/download"
+        ]
+      },
+      {
+        "version": "3.010.R111",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "51e33a7cfde7fcfee8d6e02ca0be6e3b",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2351181/download"
+        ]
+      },
+      {
+        "md5": "9b2d5d83914d0f995a16acd93093f27b",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2320375/download"
+        ]
+      },
+      {
+        "md5": "511915d0c0e8c1f2bc6b1b48bff0c05d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2312243/download"
+        ]
+      },
+      {
+        "version": "1.252.R194",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "0e8ab7747308a9406d82b8ae11d80879",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2311062/download"
+        ]
+      },
+      {
+        "version": "1.252.R194",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "19dd776a8320b0d79a9c2177452118c2",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2309680/download"
+        ]
+      },
+      {
+        "version": "1.252.R194",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "5b3191203afbe7e9708b3d171b865bfb",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2308821/download"
+        ]
+      },
+      {
+        "version": "1.252.R194",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "100b7d54a8ff094c8002166d09c66a43",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2307312/download"
+        ]
+      },
+      {
+        "version": "1.243.A194",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "9d6d78905c90c47a908719b5b98d97b7",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2305688/download"
+        ]
+      },
+      {
+        "version": "1.243.A194",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "075ec8f37f208647d44a6888997c74a2",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2305369/download"
+        ]
+      },
+      {
+        "version": "1.243.A194",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "001773552e26aff56902b25691a1f09c",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2303376/download"
+        ]
+      },
+      {
+        "version": "1.243.A194",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "6663decb42f8415a867b005a968c303a",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2302961/download"
+        ]
+      },
+      {
+        "version": "1.242.A194",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "ec799297149ac57409b2fa020ed922e2",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2302104/download"
+        ]
+      },
+      {
+        "version": "1.132.R19",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "b3c6b2718e69a3b2f8818adba66da623",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2297841/download"
+        ]
+      },
+      {
+        "version": "1.122.A19",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "1ab762918eec103d6b40c106e5eb4ce3",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2293497/download"
+        ]
+      },
+      {
+        "version": "0.148.B",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "584813763f12a7d857a626f57983ee86",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2291652/download"
+        ]
+      },
+      {
+        "version": "0.148.B",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "88cfb997ce9d46cb9add77d38dee4642",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2289580/download"
+        ]
+      },
+      {
+        "version": "0.148.B",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "0aaca86bcdc4b72d0c48ae489351b917",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2289282/download"
+        ]
+      },
+      {
+        "version": "0.148.B",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "76f919bef0de53138859853c205eb9ee",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2289095/download"
+        ]
+      },
+      {
+        "version": "0.148.B",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "b9be9261f2973a427631599956458d14",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2288022/download"
+        ]
+      },
+      {
+        "version": "0.148.B",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "f3d057236434b502cc006a462ce129f8",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2284940/download"
+        ]
+      },
+      {
+        "version": "0.148.B",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "ac7e07a2433aaa4c6df993b1d6701c57",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2282990/download"
+        ]
+      },
+      {
+        "version": "0.132.A189",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "dfc432c85a617038f3f394ac1562df11",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2282185/download"
+        ]
+      },
+      {
+        "version": "0.150.R",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "3e3d99ddd79f01a7347b11d06d4d76d0",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2274797/download"
+        ]
+      },
+      {
+        "version": "0.140.R",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "fc65a538f4ea4a8ce581090c31e783d1",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2274453/download"
+        ]
+      },
+      {
+        "version": "0.140.R",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "7b8e1b3bd38e498e851b83e8197a126b",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2274428/download"
+        ]
+      },
+      {
+        "version": "0.140.R",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "1b16aa9697eb8ea46503186eb0281f43",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2272372/download"
+        ]
+      },
+      {
+        "version": "0.140.R",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "c1f625c6915548c0072a152e14fb562f",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2271596/download"
+        ]
+      },
+      {
+        "version": "0.122.A1",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "913c6c18b6f98da2099121fc21c52a8c",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2271473/download"
+        ]
+      },
+      {
+        "version": "0.121.R1",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "44da432d9c19ea22a666ca10ff02f2a1",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2271301/download"
+        ]
+      },
+      {
+        "version": "0.100.ot",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "3c3279c036b83a886eab746911effef7",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2271173/download"
+        ]
+      },
+      {
+        "version": "0.110.R",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "4b51569e1f5e248131018bc39c3a1d69",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/simple-grinder/files/2271172/download"
+        ]
+      }
+    ]
+  },
+  {
     "name": "CodeChicken Lib",
     "description": "CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..",
     "modid": "CodeChickenLib",
@@ -19134,7 +19729,7 @@
   {
     "name": "Compact Solar Arrays",
     "description": "Compact Solar Arrays, an Industrial Craft 2 mod that adds in three new Solar Panel type blocks: Solar Arrays.Solar Arrays condense 8 (Low Voltage), 64 (Medium Voltage) or 512 (High Voltage) Industrial Craft 2 solar panels into a single block.This significantly reduces the CPU impact of large amounts of Solar Energy gathering so is a common server enhancement.New in 4.0: Solar Hats- charge armor at the same rate as their block counterparts would",
-    "modid": "CompactSolars",
+    "modid": "compactsolars",
     "curseforge_id": "compact-solars",
     "urls": [
       "http://forum.industrial-craft.net/index.php?page=Thread&threadID=4827"
@@ -20055,8 +20650,9 @@
     ]
   },
   {
+    "name": "Dense Ores",
     "description": "Adds new ore variants to the game",
-    "modid": "dense-ores",
+    "modid": "denseores",
     "curseforge_id": "dense-ores",
     "downloads": [
       {
@@ -20360,10 +20956,20 @@
   },
   {
     "name": "Dynamic Trees",
-    "description": "Progressively growing trees.. forests that spread",
+    "description": "Trees that grow.. forests that spread",
     "modid": "dynamictrees",
     "curseforge_id": "dynamictrees",
     "downloads": [
+      {
+        "version": "1.12.2-0.7.5c",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "b353670728c2a594608b4d38ae184654",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/dynamictrees/files/2544966/download"
+        ]
+      },
       {
         "version": "1.12.2-0.7.5b",
         "mcversions": [
@@ -22431,8 +23037,9 @@
     ]
   },
   {
+    "name": "Extra Utilities 2",
     "description": "A bunch of useful things.",
-    "modid": "extra-utilities",
+    "modid": "extrautils2",
     "curseforge_id": "extra-utilities",
     "downloads": [
       {
@@ -23939,9 +24546,9 @@
     ]
   },
   {
-    "name": "Forestry for Minecraft",
+    "name": "Forestry",
     "description": "Trees, bees and more.",
-    "modid": "Forestry",
+    "modid": "forestry",
     "curseforge_id": "forestry",
     "urls": [
       "http://forestry.sengir.net/"
@@ -32617,7 +33224,7 @@
   },
   {
     "name": "Pam's HarvestCraft",
-    "description": "An absolutely huge farming and food mod.",
+    "description": "Expanding minecraft's food system.",
     "modid": "harvestcraft",
     "curseforge_id": "pams-harvestcraft",
     "urls": [
@@ -33243,7 +33850,7 @@
   {
     "name": "IndustrialCraft 2",
     "description": "Industrial age themed expansion for Minecraft.",
-    "modid": "ic2",
+    "modid": "IC2",
     "curseforge_id": "industrial-craft",
     "urls": [
       "http://www.industrial-craft.net"
@@ -35830,7 +36437,7 @@
   },
   {
     "name": "JABBA",
-    "description": "Moar barrels for all the family!",
+    "description": "Moar barrelsThe Jabba team would like to thank the Academy for this award... oh wait... *cough* erm... Credits to neptunepink for the original barrel idea, Q and his community for the name, special thanks to skyboy for rendering assistance and the DSU, and the many people whom have made modded MC such an awesome thing to be a part of.",
     "modid": "JABBA",
     "curseforge_id": "jabba",
     "urls": [
@@ -41743,7 +42350,7 @@
   },
   {
     "name": "JourneyMap",
-    "description": "JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore.",
+    "description": "JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.12-1.4. Built: 2017-10-19-17:21:21.",
     "modid": "journeymap",
     "curseforge_id": "journeymap",
     "urls": [
@@ -43725,7 +44332,7 @@
   {
     "name": "Mantle",
     "description": "Shared code for Slime Knights mods and others.",
-    "modid": "mantle",
+    "modid": "Mantle",
     "curseforge_id": "mantle",
     "urls": [
       "https://github.com/SlimeKnights/Mantle"
@@ -44116,7 +44723,7 @@
   {
     "name": "McJtyLib",
     "description": "McJtyLib library for RFTools, Deep Resonance, ...",
-    "modid": "mcjtylib",
+    "modid": "mcjtylib_ng",
     "curseforge_id": "mcjtylib",
     "downloads": [
       {
@@ -47369,7 +47976,7 @@
   },
   {
     "name": "Not Enough Items",
-    "description": "Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.<plugins>Supporters: EmuCraft Team, Victor Zimmer, lexi85, Ace_Trainer_Tullius, Bacon_Donut, Sleement, Ninja 5tyl3, Disalot, Gamer2313, Majorangejuice",
+    "description": "Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more.<plugins><supporters>",
     "modid": "nei",
     "curseforge_id": "not-enough-items-1-8",
     "urls": [
@@ -47975,7 +48582,7 @@
   {
     "name": "Ore Flowers",
     "description": "Adds ore indicator plants, allowing for easier prospecting of COG ore veins.",
-    "modid": "OreFlowers",
+    "modid": "oreflowers",
     "curseforge_id": "ore-flowers",
     "downloads": [
       {
@@ -48217,7 +48824,7 @@
   },
   {
     "name": "Ore Shrubs",
-    "description": "Generate ore shrubs in the world with ore berries you can craft to your favorite materials!",
+    "description": "Everyone loves ore shrubs!",
     "modid": "oreshrubs",
     "curseforge_id": "ore-shrubs",
     "downloads": [
@@ -49226,584 +49833,15 @@
     ]
   },
   {
-    "name": "Simple Grinder",
-    "description": "Simple Macerator for MC1.12",
-    "modid": "simplegrinder",
-    "curseforge_id": "simple-grinder",
-    "urls": [
-      "http://minecraft.curseforge.com/projects/simple-grinder"
-    ],
-    "downloads": [
-      {
-        "version": "1.144.R1122fix",
-        "mcversions": [
-          "1.12.2"
-        ],
-        "md5": "cd0353d1bf46dcb6e4a106125cdc3eb3",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2541999/download"
-        ]
-      },
-      {
-        "version": "4.114.R1122",
-        "mcversions": [
-          "1.12.2"
-        ],
-        "md5": "8c9a7b67d418d05b98e3d04bab6c0ac1",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2537447/download"
-        ]
-      },
-      {
-        "version": "4.112.R1122",
-        "mcversions": [
-          "1.12.2"
-        ],
-        "md5": "7c7e54e6c25153f4e8fbf19b12ed602f",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2537016/download"
-        ]
-      },
-      {
-        "version": "4.100.R1122",
-        "mcversions": [
-          "1.12.2"
-        ],
-        "md5": "e52ca461484ce053b873cce1b38b1483",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2519130/download"
-        ]
-      },
-      {
-        "md5": "64b112ba12715b368525bb3bd0154334",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2482427/download"
-        ]
-      },
-      {
-        "version": "4.085.R1121",
-        "mcversions": [
-          "1.12.1"
-        ],
-        "md5": "2af091273a61b9d925ca23500f287240",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2482394/download"
-        ]
-      },
-      {
-        "version": "4.085.R1121",
-        "mcversions": [
-          "1.12.1"
-        ],
-        "md5": "2e32da6f312c2d5f73fe5ac28174c5e4",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2469612/download"
-        ]
-      },
-      {
-        "version": "4.055.R1112",
-        "mcversions": [
-          "1.12"
-        ],
-        "md5": "4194b786185c3165b38eb4e222766628",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2464499/download"
-        ]
-      },
-      {
-        "version": "4.055.R1112",
-        "mcversions": [
-          "1.12"
-        ],
-        "md5": "53c5cf0dcc33f5b27e87a78aa6ae8299",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2462631/download"
-        ]
-      },
-      {
-        "version": "4.055.R1112",
-        "mcversions": [
-          "1.12"
-        ],
-        "md5": "64b898a2139fb9f4fde74833f1e5163b",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2462409/download"
-        ]
-      },
-      {
-        "version": "4.055.R1112",
-        "mcversions": [
-          "1.12"
-        ],
-        "md5": "d163e573c018905f43b1c95624bbae1c",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2459986/download"
-        ]
-      },
-      {
-        "version": "4.055.R1112",
-        "mcversions": [
-          "1.12"
-        ],
-        "md5": "02afcae52a7616e382f446a4785e3444",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2458764/download"
-        ]
-      },
-      {
-        "version": "4.012.R1112",
-        "mcversions": [
-          "1.12"
-        ],
-        "md5": "f3479d2aa96fa96aff38aa096dfce0d8",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2443368/download"
-        ]
-      },
-      {
-        "version": "4.012.R1112",
-        "mcversions": [
-          "1.12"
-        ],
-        "md5": "5bccf39a0c8218d63d250e6c346b0200",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2442838/download"
-        ]
-      },
-      {
-        "version": "4.012.R1112",
-        "mcversions": [
-          "1.12"
-        ],
-        "md5": "4e5d8546114ea8d508d8de15fc1b2cc0",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2437536/download"
-        ]
-      },
-      {
-        "version": "4.012.R1112",
-        "mcversions": [
-          "1.12"
-        ],
-        "md5": "f2925908da5694cdf7fe28b5e0e5e53c",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2435188/download"
-        ]
-      },
-      {
-        "version": "3.121.R1112",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "6d9a1c24b10f3da9b85e86e1a0c5e3c7",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2432211/download"
-        ]
-      },
-      {
-        "version": "3.121.R1112",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "9a27d98fa605cd1b618d0653c6e80773",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2431780/download"
-        ]
-      },
-      {
-        "version": "3.121.R1112",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "9ba79dfa941ee7ad1d4851b36b24714d",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2423144/download"
-        ]
-      },
-      {
-        "version": "3.121.R1112",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "e3210379732818476086c117c9beb208",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2413384/download"
-        ]
-      },
-      {
-        "version": "3.121.R1112",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "8dc87f8c51e627728ec08a3f1de77b6c",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2402455/download"
-        ]
-      },
-      {
-        "version": "3.101.R1112",
-        "mcversions": [
-          "1.11.2"
-        ],
-        "md5": "d647ddcd51029fb5bac056921c05edcc",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2393027/download"
-        ]
-      },
-      {
-        "version": "3.095.R1112",
-        "mcversions": [
-          "1.11.2"
-        ],
-        "md5": "c96286e92b66aa3d55fc3b228d8c2a43",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2381357/download"
-        ]
-      },
-      {
-        "version": "3.038.R111",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "d3b2cc9b5805455ae0b5dbfba5775dd6",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2363196/download"
-        ]
-      },
-      {
-        "version": "3.025.R111",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "9a8dd2646fd070c1cb39ec8fcfae6fab",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2353980/download"
-        ]
-      },
-      {
-        "version": "3.025.R111",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "d1b57afccee410843cacf3a094a74a27",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2351490/download"
-        ]
-      },
-      {
-        "version": "3.010.R111",
-        "mcversions": [
-          "1.11"
-        ],
-        "md5": "51e33a7cfde7fcfee8d6e02ca0be6e3b",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2351181/download"
-        ]
-      },
-      {
-        "md5": "9b2d5d83914d0f995a16acd93093f27b",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2320375/download"
-        ]
-      },
-      {
-        "md5": "511915d0c0e8c1f2bc6b1b48bff0c05d",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2312243/download"
-        ]
-      },
-      {
-        "version": "1.252.R194",
-        "mcversions": [
-          "1.9.4"
-        ],
-        "md5": "0e8ab7747308a9406d82b8ae11d80879",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2311062/download"
-        ]
-      },
-      {
-        "version": "1.252.R194",
-        "mcversions": [
-          "1.9.4"
-        ],
-        "md5": "19dd776a8320b0d79a9c2177452118c2",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2309680/download"
-        ]
-      },
-      {
-        "version": "1.252.R194",
-        "mcversions": [
-          "1.9.4"
-        ],
-        "md5": "5b3191203afbe7e9708b3d171b865bfb",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2308821/download"
-        ]
-      },
-      {
-        "version": "1.252.R194",
-        "mcversions": [
-          "1.9.4"
-        ],
-        "md5": "100b7d54a8ff094c8002166d09c66a43",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2307312/download"
-        ]
-      },
-      {
-        "version": "1.243.A194",
-        "mcversions": [
-          "1.9.4"
-        ],
-        "md5": "9d6d78905c90c47a908719b5b98d97b7",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2305688/download"
-        ]
-      },
-      {
-        "version": "1.243.A194",
-        "mcversions": [
-          "1.9.4"
-        ],
-        "md5": "075ec8f37f208647d44a6888997c74a2",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2305369/download"
-        ]
-      },
-      {
-        "version": "1.243.A194",
-        "mcversions": [
-          "1.9.4"
-        ],
-        "md5": "001773552e26aff56902b25691a1f09c",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2303376/download"
-        ]
-      },
-      {
-        "version": "1.243.A194",
-        "mcversions": [
-          "1.9.4"
-        ],
-        "md5": "6663decb42f8415a867b005a968c303a",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2302961/download"
-        ]
-      },
-      {
-        "version": "1.242.A194",
-        "mcversions": [
-          "1.9.4"
-        ],
-        "md5": "ec799297149ac57409b2fa020ed922e2",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2302104/download"
-        ]
-      },
-      {
-        "version": "1.132.R19",
-        "mcversions": [
-          "1.9"
-        ],
-        "md5": "b3c6b2718e69a3b2f8818adba66da623",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2297841/download"
-        ]
-      },
-      {
-        "version": "1.122.A19",
-        "mcversions": [
-          "1.9"
-        ],
-        "md5": "1ab762918eec103d6b40c106e5eb4ce3",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2293497/download"
-        ]
-      },
-      {
-        "version": "0.148.B",
-        "mcversions": [
-          "1.8.9"
-        ],
-        "md5": "584813763f12a7d857a626f57983ee86",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2291652/download"
-        ]
-      },
-      {
-        "version": "0.148.B",
-        "mcversions": [
-          "1.8.9"
-        ],
-        "md5": "88cfb997ce9d46cb9add77d38dee4642",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2289580/download"
-        ]
-      },
-      {
-        "version": "0.148.B",
-        "mcversions": [
-          "1.8.9"
-        ],
-        "md5": "0aaca86bcdc4b72d0c48ae489351b917",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2289282/download"
-        ]
-      },
-      {
-        "version": "0.148.B",
-        "mcversions": [
-          "1.8.9"
-        ],
-        "md5": "76f919bef0de53138859853c205eb9ee",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2289095/download"
-        ]
-      },
-      {
-        "version": "0.148.B",
-        "mcversions": [
-          "1.8.9"
-        ],
-        "md5": "b9be9261f2973a427631599956458d14",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2288022/download"
-        ]
-      },
-      {
-        "version": "0.148.B",
-        "mcversions": [
-          "1.8.9"
-        ],
-        "md5": "f3d057236434b502cc006a462ce129f8",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2284940/download"
-        ]
-      },
-      {
-        "version": "0.148.B",
-        "mcversions": [
-          "1.8.9"
-        ],
-        "md5": "ac7e07a2433aaa4c6df993b1d6701c57",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2282990/download"
-        ]
-      },
-      {
-        "version": "0.132.A189",
-        "mcversions": [
-          "1.8.9"
-        ],
-        "md5": "dfc432c85a617038f3f394ac1562df11",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2282185/download"
-        ]
-      },
-      {
-        "version": "0.150.R",
-        "mcversions": [
-          "1.7.10"
-        ],
-        "md5": "3e3d99ddd79f01a7347b11d06d4d76d0",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2274797/download"
-        ]
-      },
-      {
-        "version": "0.140.R",
-        "mcversions": [
-          "1.7.10"
-        ],
-        "md5": "fc65a538f4ea4a8ce581090c31e783d1",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2274453/download"
-        ]
-      },
-      {
-        "version": "0.140.R",
-        "mcversions": [
-          "1.7.10"
-        ],
-        "md5": "7b8e1b3bd38e498e851b83e8197a126b",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2274428/download"
-        ]
-      },
-      {
-        "version": "0.140.R",
-        "mcversions": [
-          "1.7.10"
-        ],
-        "md5": "1b16aa9697eb8ea46503186eb0281f43",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2272372/download"
-        ]
-      },
-      {
-        "version": "0.140.R",
-        "mcversions": [
-          "1.7.10"
-        ],
-        "md5": "c1f625c6915548c0072a152e14fb562f",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2271596/download"
-        ]
-      },
-      {
-        "version": "0.122.A1",
-        "mcversions": [
-          "1.7.10"
-        ],
-        "md5": "913c6c18b6f98da2099121fc21c52a8c",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2271473/download"
-        ]
-      },
-      {
-        "version": "0.121.R1",
-        "mcversions": [
-          "1.7.10"
-        ],
-        "md5": "44da432d9c19ea22a666ca10ff02f2a1",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2271301/download"
-        ]
-      },
-      {
-        "version": "0.100.ot",
-        "mcversions": [
-          "1.7.10"
-        ],
-        "md5": "3c3279c036b83a886eab746911effef7",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2271173/download"
-        ]
-      },
-      {
-        "version": "0.110.R",
-        "mcversions": [
-          "1.7.10"
-        ],
-        "md5": "4b51569e1f5e248131018bc39c3a1d69",
-        "mirrors": [
-          "https://minecraft.curseforge.com/projects/simple-grinder/files/2271172/download"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Simple Harvest",
-    "description": "Adds right click to harvest and replant automagically.",
+    "description": "Adds right click to harvest crops and replant automagically.",
     "modid": "simpleharvest",
     "curseforge_id": "simple-harvest",
     "downloads": [
       {
         "version": "1.07",
         "mcversions": [
-          "1.12"
+          "1.11.2"
         ],
         "md5": "906b820f6171d2d2e9ad4fba3b9927d5",
         "mirrors": [
@@ -50065,7 +50103,7 @@
   },
   {
     "name": "Solar Expansion",
-    "description": "A way to generate RF from the sun",
+    "description": "Generation Of Redstone Flux (RF) From The Sun",
     "modid": "SolarExpansion",
     "curseforge_id": "solar-expansion",
     "downloads": [
@@ -51339,10 +51377,10 @@
   {
     "name": "Tinkers' Construct",
     "description": "A little of this, a little of that, a lot of tinkering, and a lot of tools",
-    "modid": "tconstruct",
+    "modid": "TConstruct",
     "curseforge_id": "tinkers-construct",
     "urls": [
-      "https://github.com/SlimeKnights/TinkersConstruct"
+      "http://www.minecraftforum.net/topic/1659892-tinkers-construct"
     ],
     "downloads": [
       {
@@ -55026,10 +55064,10 @@
   {
     "name": "The Twilight Forest",
     "description": "An enchanted forest dimension.",
-    "modid": "TwilightForest",
+    "modid": "twilightforest",
     "curseforge_id": "the-twilight-forest",
     "urls": [
-      "http://www.minecraftforum.net/topic/561673-"
+      "https://minecraft.curseforge.com/projects/the-twilight-forest"
     ],
     "downloads": [
       {
@@ -55157,7 +55195,7 @@
   {
     "name": "UniDict",
     "description": "a mod about unifying all the things.",
-    "modid": "unidict",
+    "modid": "UniDict",
     "curseforge_id": "unidict",
     "urls": [
       "http://minecraft.curseforge.com/projects/unidict"
@@ -57510,6 +57548,384 @@
   },
   {
     "name": "Waila",
+    "description": "You are using Hwyla, a fork of Waila. You can find more information on the Hwyla CurseForge page.",
+    "modid": "Waila",
+    "curseforge_id": "hwyla",
+    "downloads": [
+      {
+        "version": "1.8.24",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "6d03d0f2d87a80467d5d3e3ce2a80e98",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2542548/download"
+        ]
+      },
+      {
+        "version": "1.8.23",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "15cdac034d184e7636d48bfcc3dee25b",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2506337/download"
+        ]
+      },
+      {
+        "version": "1.8.22",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "1cfd45749ffcf333b8278921a98367e6",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2496991/download"
+        ]
+      },
+      {
+        "version": "1.8.22",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "0706759d38b6f651f5bf539c42d79b1f",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2496989/download"
+        ]
+      },
+      {
+        "version": "1.8.21",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "2f78d38766b20898472ba38e906448fb",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2495892/download"
+        ]
+      },
+      {
+        "version": "1.8.21",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "80d2cf5bea17c7686bb76554cfc8b603",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2495889/download"
+        ]
+      },
+      {
+        "version": "1.8.20",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "098b752cc2015b48247a4df9617d6268",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2462171/download"
+        ]
+      },
+      {
+        "version": "1.8.19",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "e579c87357bc4994219f15f4c84ab59f",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2443649/download"
+        ]
+      },
+      {
+        "version": "1.8.18",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "058db7b7ba659edbade62cfd25832dda",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2434359/download"
+        ]
+      },
+      {
+        "version": "1.8.17-B31_1.10.2",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "1fcadf1ceb7e8832a76324130700849d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2433252/download"
+        ]
+      },
+      {
+        "version": "1.8.17",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "73caa081ed6372ea984d38e5b4a330e0",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2433250/download"
+        ]
+      },
+      {
+        "version": "1.8.17",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "ee92d716082404e6c2a33ad5b1c0f5d0",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2433247/download"
+        ]
+      },
+      {
+        "version": "1.8.16",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "0a0e68187a0549afb0bfca9213f957ff",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2432083/download"
+        ]
+      },
+      {
+        "version": "1.8.15",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "59e9808c0b3fe61a64d87732d9802cd1",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2431165/download"
+        ]
+      },
+      {
+        "version": "1.8.14",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "55a4f1dd15d04b085bd96e5c217bb5ef",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2430060/download"
+        ]
+      },
+      {
+        "version": "1.8.13",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "b4cfbb44dde2d210d889793fb433218a",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2403761/download"
+        ]
+      },
+      {
+        "version": "1.8.13-B27_1.10.2",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "0b9fd4e40ad21a23dc159433da932131",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2403759/download"
+        ]
+      },
+      {
+        "version": "1.8.12",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "532db023d588fa84e2ff75bfbf52dbd8",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2398254/download"
+        ]
+      },
+      {
+        "version": "1.8.12-B26_1.10.2",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "b755de1c9ae5d70ea438e6ed5227decb",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2398253/download"
+        ]
+      },
+      {
+        "version": "1.8.11",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "56a1b3a7ec8ba9361fc764b40029486d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2391753/download"
+        ]
+      },
+      {
+        "version": "1.8.11-B25_1.10.2",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "69ab7bdd3c2c05d5fdead18d580fed15",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2391751/download"
+        ]
+      },
+      {
+        "version": "1.8.10",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "c2c8ec06df304d8cac16f072129fea4a",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2378709/download"
+        ]
+      },
+      {
+        "version": "1.8.10",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "5d66e3d9421afdf214780283b6e03c1d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2378708/download"
+        ]
+      },
+      {
+        "version": "1.8.9",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "66ada831e0c4efaec2501e436a421e59",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2373888/download"
+        ]
+      },
+      {
+        "version": "1.8.9",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "89a8d438aba2f64e106e6a443d7188c1",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2373887/download"
+        ]
+      },
+      {
+        "version": "1.8.8",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "c01f4ac040a96b15c2859fd0d43397b0",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2372559/download"
+        ]
+      },
+      {
+        "version": "1.8.7",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "1a0d08735544b100f8b3f91c503bd189",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2372166/download"
+        ]
+      },
+      {
+        "version": "1.8.7",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "900c88c747a275d184c691610b3e872e",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2372164/download"
+        ]
+      },
+      {
+        "version": "1.8.6",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "5ec43988ff5fd1b489a5b282f031b448",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2364483/download"
+        ]
+      },
+      {
+        "version": "1.8.5",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "5d8055e33b032d0f2a262180a4b633fd",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2355186/download"
+        ]
+      },
+      {
+        "version": "1.8.5",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "3f2ac55024d4e12941a89ca53f4c57a2",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2355029/download"
+        ]
+      },
+      {
+        "version": "1.8.5",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "1a2ca6a3f51458aa5f97b267376cfe58",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2354227/download"
+        ]
+      },
+      {
+        "version": "1.8.4",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "2f86ac0227e087bc8de5872b624d9105",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2348704/download"
+        ]
+      },
+      {
+        "version": "1.8.3",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "d4ed17f8f41b420436d835d4dc54089d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2345641/download"
+        ]
+      },
+      {
+        "version": "1.8.2",
+        "mcversions": [
+          "1.11"
+        ],
+        "md5": "cd48cf5d19335f34a5d8345704021da2",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2345286/download"
+        ]
+      },
+      {
+        "version": "1.8.1",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "419d876d84659bbcaeeeabdf10cc70f5",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2344352/download"
+        ]
+      },
+      {
+        "version": "1.8.0",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "d8b7a2071665b9e035144f8d8a3f9899",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/hwyla/files/2343300/download"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Waila",
     "description": "All your data are belong to us.",
     "modid": "waila",
     "curseforge_id": "waila",
@@ -58362,11 +58778,883 @@
     ]
   },
   {
+    "name": "What Are We Looking At",
+    "description": "Greatly expands upon the amount of information provided by the Waila HUD, along with bridging support between Waila and many other minecraft mods!",
+    "modid": "wawla",
+    "curseforge_id": "wawla-what-are-we-looking-at",
+    "urls": [
+      "http://www.darkhax.net/wawla.html"
+    ],
+    "downloads": [
+      {
+        "version": "2.5.253",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "c9798883817315860154725613db6e77",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2541610/download"
+        ]
+      },
+      {
+        "version": "2.5.251",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "0ef04dcd9c04e877d5f77da71666e179",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2528850/download"
+        ]
+      },
+      {
+        "version": "2.5.250",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "d15d514180b22d06a246c90a03533b25",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2528845/download"
+        ]
+      },
+      {
+        "version": "2.5.249",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "ea293818ec7c02f0301bfd703d1e3808",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2521143/download"
+        ]
+      },
+      {
+        "version": "2.5.248",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "bc7ba4de8322bcaa822e6e48f92b5d56",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2516672/download"
+        ]
+      },
+      {
+        "version": "2.5.247",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "bd18f1a90ba865b993f6aacfc3c20df5",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2496514/download"
+        ]
+      },
+      {
+        "version": "2.5.246",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "82122325a046ac519b1f0df59f4d9214",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2493710/download"
+        ]
+      },
+      {
+        "version": "2.5.245",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "b748f28ef290dc40d0caeda83267c8e6",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2487963/download"
+        ]
+      },
+      {
+        "version": "2.5.244",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "4c3887a9abafda625c3bc65359cfe2e4",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2482974/download"
+        ]
+      },
+      {
+        "version": "2.5.243",
+        "mcversions": [
+          "1.12.1"
+        ],
+        "md5": "e9472c729989528e8548fd7a8b580cdf",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2478098/download"
+        ]
+      },
+      {
+        "version": "2.5.241",
+        "mcversions": [
+          "1.12.1"
+        ],
+        "md5": "0b7f1b071e23ca1bdb9960276705033a",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2476296/download"
+        ]
+      },
+      {
+        "version": "2.5.240",
+        "mcversions": [
+          "1.12.1"
+        ],
+        "md5": "70b3f3425ebe816f59c2d2b9500ca856",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2469605/download"
+        ]
+      },
+      {
+        "version": "2.5.239",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "615721deede433168534ee6ca6beea30",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2444264/download"
+        ]
+      },
+      {
+        "version": "2.5.238",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "f0ef63b02e8fef3a7e73c45740ee4494",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2441428/download"
+        ]
+      },
+      {
+        "version": "2.5.237",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "6ff14cf01c683e24b4b11f4ee8ca5ab2",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2438904/download"
+        ]
+      },
+      {
+        "version": "2.5.236",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "1ce24e07133268572c588c05aa2095ec",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2433073/download"
+        ]
+      },
+      {
+        "version": "2.5.235",
+        "mcversions": [
+          "1.12"
+        ],
+        "md5": "27ee5523e33356957c6ee03b7da51fba",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2432717/download"
+        ]
+      },
+      {
+        "version": "1.11.2-2.4.0.233",
+        "mcversions": [
+          "1.11.2"
+        ],
+        "md5": "0a7d3adef491a23f9d337cf6a5cbe67f",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2429417/download"
+        ]
+      },
+      {
+        "version": "1.11.2-2.4.0.232",
+        "mcversions": [
+          "1.11.2"
+        ],
+        "md5": "48ff0aa3100f7bc196885f473cfe7038",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2409024/download"
+        ]
+      },
+      {
+        "version": "1.11.2-2.4.0.231",
+        "mcversions": [
+          "1.11.2"
+        ],
+        "md5": "53e18509f98a8fb0631b04772f7eeae8",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2407377/download"
+        ]
+      },
+      {
+        "version": "1.11.2-2.4.0.230",
+        "mcversions": [
+          "1.11.2"
+        ],
+        "md5": "5463fcb9f486aa2d20223be9d8e452ea",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2406353/download"
+        ]
+      },
+      {
+        "version": "1.11.2-2.4.0.221",
+        "mcversions": [
+          "1.11.2"
+        ],
+        "md5": "3713655fd966a205609f3345c6912699",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2406308/download"
+        ]
+      },
+      {
+        "version": "1.11.2-2.4.0.220",
+        "mcversions": [
+          "1.11.2"
+        ],
+        "md5": "f4f32d999cc2e955ecb801fbe6b562c2",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2406143/download"
+        ]
+      },
+      {
+        "version": "1.11.2-2.4.0.219",
+        "mcversions": [
+          "1.11.2"
+        ],
+        "md5": "fb22c2c1e213263f0bb9328433f9cf83",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2405756/download"
+        ]
+      },
+      {
+        "version": "1.11.2-2.4.0.218",
+        "mcversions": [
+          "1.11.2"
+        ],
+        "md5": "df3b3f82c16744aa0bd4efa807aa19b9",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2405583/download"
+        ]
+      },
+      {
+        "version": "1.11.2-2.4.0.217",
+        "mcversions": [
+          "1.11.2"
+        ],
+        "md5": "68b533280918873436477cbffd76f4e6",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2405574/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.2.215",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "f7eac808b0d133d736067aec0f3b78bd",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2398640/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.1.214",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "d9316ef12aa7a08429caa3462e0b5416",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2343128/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.1.213",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "0c0169c69e23ede0e999123407fae769",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2342267/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.1.212",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "ab2afaca24a5876f5d9e25708fe6986f",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2336533/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.1.211",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "55127330cb29a6c6504833bf61262ec9",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2333608/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.1.210",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "cc740c5dd4257872ef42196c888777fb",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2333396/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.1.209",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "9606543c00d70199b249b99d32a80fab",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2333322/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.1.208",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "da3c7d36994c788ea2874d2c1b7bdda1",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2333308/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.207",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "52b0ddf2c339f9d91b43e8aff4df8367",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2333153/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.206",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "3898f4b8f564ae07cec4c4e2ce491998",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2330349/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.205",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "50d1bae515c48948220cb9a7c0c01823",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2329462/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.204",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "1e199087d63eec05b96eccd9c437c67a",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2328303/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.203",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "274c2c283815ff8c328e519d463f10f2",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2326949/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.202",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "19f708b07ceedd05ae7e4ab3de709970",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2326937/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.201",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "cb8625c30d9dab8d8489fbcb24837876",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2321886/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.200",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "7a7c6202cc8cc3e0f525fadc8eae1c90",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2319939/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.199",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "41a7eea4bcccd4cda1f964a896e86166",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2319935/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.198",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "fadf06eedd94d5b8d1c0f89c186449d1",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2318704/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.197",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "7717389575a294eef7660cac5566d9a3",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2318040/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.195",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "9ffcd4835ab5e9977c557a3f2448af7c",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2318023/download"
+        ]
+      },
+      {
+        "version": "1.10.2-2.3.0.194",
+        "mcversions": [
+          "1.10.2"
+        ],
+        "md5": "764162e2b932689168e3b2c52dc39aca",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2317788/download"
+        ]
+      },
+      {
+        "version": "1.10-2.3.0.193",
+        "mcversions": [
+          "1.10"
+        ],
+        "md5": "cee333c9d23c70c15d66001370290708",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2310234/download"
+        ]
+      },
+      {
+        "version": "1.9.4-2.2.1.192",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "54eda130a9f143819372d39fc57114a5",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2306375/download"
+        ]
+      },
+      {
+        "version": "1.9.4-2.2.1.191",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "3d9f371d768707209dbe338bec467625",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2304952/download"
+        ]
+      },
+      {
+        "version": "1.9.4-2.2.1.190",
+        "mcversions": [
+          "1.9.4"
+        ],
+        "md5": "e0e0378a536ded5e3fc35f51b707cc5f",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2304538/download"
+        ]
+      },
+      {
+        "version": "1.3.1",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "dbdf14b087e645bece12d1cab750f397",
+        "dependencies": [
+          "forge"
+        ],
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2298772/download"
+        ]
+      },
+      {
+        "version": "1.9-2.2.0.186",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "24c41a3c8a2c4913f3a417aae21c9970",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2293843/download"
+        ]
+      },
+      {
+        "version": "1.9-2.2.0.184",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "3a51e79aa351288b4d8dff96dcd084c5",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2293369/download"
+        ]
+      },
+      {
+        "version": "1.9-2.2.0.181",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "8469fc0d714eb3e58ee03764760c66bb",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2293124/download"
+        ]
+      },
+      {
+        "version": "1.9-2.2.0.180",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "bca7ca8c139bd36c33aee89d15e6d4d7",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2293041/download"
+        ]
+      },
+      {
+        "version": "1.9-2.2.0.179",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "f2bcd15d0a1923a3602bde01ae460f68",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2292935/download"
+        ]
+      },
+      {
+        "version": "1.8.9-2.2.0.178",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "c53d959c57bd9aae9fc9b8d49178a0e1",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2292931/download"
+        ]
+      },
+      {
+        "version": "1.8.9-2.2.0.177",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "f17ff0fb5bbfbf6647e06f02db148d4c",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2292781/download"
+        ]
+      },
+      {
+        "version": "1.8.9-2.2.0.176",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "009515e5b5db5d5c465e15af1559daf6",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2292744/download"
+        ]
+      },
+      {
+        "version": "1.8.9-2.2.0.175",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "6a0e54e4c0524d1e6b23423cb69dbdee",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2292732/download"
+        ]
+      },
+      {
+        "version": "1.8.9-2.2.0.174",
+        "mcversions": [
+          "1.9"
+        ],
+        "md5": "cad3e07de9147665fb10d3f195f36f9d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2292721/download"
+        ]
+      },
+      {
+        "version": "1.8.9-1.1.4.171",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "90fedd1b222ce4ccc795308bde2a4d17",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2287651/download"
+        ]
+      },
+      {
+        "version": "1.8.9-1.1.4.170",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "23dc274b9d2543446275e2899ddb1fbc",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2287647/download"
+        ]
+      },
+      {
+        "version": "1.4.7",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "5a0f3165930d72aff30e3cc5d629731c",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2276743/download"
+        ]
+      },
+      {
+        "version": "1.4.1",
+        "mcversions": [
+          "1.8.9"
+        ],
+        "md5": "15485bc64f370bc6a29bd3ac9aadfdb0",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2274618/download"
+        ]
+      },
+      {
+        "version": "1.4.0.0",
+        "mcversions": [
+          "1.8.8"
+        ],
+        "md5": "6e9d9922e2f9a4e6f4fb080a010ee81d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2271704/download"
+        ]
+      },
+      {
+        "version": "1.3.3",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "69deb6591d88186603bcbb404179764e",
+        "dependencies": [
+          "forge"
+        ],
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2267304/download"
+        ]
+      },
+      {
+        "version": "1.3.1",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "a2ea9d79983bbe937bbb2565a6810587",
+        "dependencies": [
+          "forge"
+        ],
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2264413/download"
+        ]
+      },
+      {
+        "version": "1.3.1",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "1db7e45064ad27ecf745c98e28cc2e16",
+        "dependencies": [
+          "forge"
+        ],
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2244297/download"
+        ]
+      },
+      {
+        "version": "1.3.0",
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "962844fce8a7e3189257d7e7b5ca8a4f",
+        "dependencies": [
+          "forge"
+        ],
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2243488/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "d506dec3613d86c316eb3885c0089900",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2232718/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "61726b8e3a90eaf7819a5a3433222311",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2232710/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "1529f0f4709b8bbcff0d446c0a857187",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2225424/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "7820f48bb8caa4766bc70594226f2066",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2223649/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "c5f1625911e4636236258bec32929a60",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2217628/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "b565ee55cd7ba0bce6f9ad4a27e219ae",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2216819/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "b9d8b3a705f6b9f87a83e28d4bf7680c",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2215892/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "22ab81bbefc65af543f82538d23d6f4d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2215891/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "4655bdedbc247a3fede3623bb4d55d40",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2215889/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "075c7e0d43b77e1f6d2e84ae4ac7476e",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2215888/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "8fc89cdd850d89615a39f7a1011c43f8",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2215887/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "0d329bdc75189f6e46f9eeb0af385701",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2215886/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "57386dda8c7da5c753eaf72a10c0d6e0",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2215885/download"
+        ]
+      },
+      {
+        "mcversions": [
+          "1.7.10"
+        ],
+        "md5": "93e0656086b2e1c7111c8e5261c88a3d",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at/files/2215884/download"
+        ]
+      }
+    ]
+  },
+  {
     "name": "Waystones",
     "description": "Teleport back to activated waystones. For Survival, Adventure or Servers.",
     "modid": "waystones",
     "curseforge_id": "waystones",
     "downloads": [
+      {
+        "version": "4.0.33",
+        "mcversions": [
+          "1.12.2"
+        ],
+        "md5": "ad9d8538f7326d8b647212bf16b42fff",
+        "mirrors": [
+          "https://minecraft.curseforge.com/projects/waystones/files/2545165/download"
+        ]
+      },
       {
         "version": "4.0.26",
         "mcversions": [
